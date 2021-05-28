@@ -3,3 +3,5 @@ console.log(a);
 
 var b = 2;
 console.log(b);
+
+var c = 3;
