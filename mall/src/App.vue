@@ -3,9 +3,21 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'App',
   components: {
+  },
+  data(){
+    return {
+      res: {}
+    }
+  },
+  mounted(){
+    axios.get('/mock/user/login.json').then(res => {
+      this.res = res;
+    });
   }
 }
 </script>
