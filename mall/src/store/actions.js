@@ -1,0 +1,6 @@
+/***
+ * vuex-actoin
+ * ***/
+export default {
+
+}

@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router';
 import axios from 'axios';
 import env from './env';
+import store from './store';
 
 const mock = true;
 if(mock){
@@ -29,6 +30,7 @@ axios.interceptors.response.use(function(response){
 Vue.config.productionTip = false
 
 new Vue({
+  store,
   router: router,
   render: h => h(App),
 }).$mount('#app')
