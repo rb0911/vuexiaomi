@@ -1,4 +1,12 @@
 {
-    "user": "robin",
-    "user2": "robin"
+    "status": 0,
+    "data": {
+        "id":12,
+        "username": "admin",
+        "email": "admin@.qq.com",
+        "phone": null,
+        "role": 0,
+        "createtime": 147943209844,
+        "updatetime": 147943209844
+    }
 }

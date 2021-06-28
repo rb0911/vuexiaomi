@@ -2,7 +2,7 @@ module.exports= {
     devServer: {
         host: 'localhost',
         port: 8000,
-        Proxy: {
+        proxy: {
             '/api': {
                 target: 'https://www.imooc.com',
                 changeOrigin: true,

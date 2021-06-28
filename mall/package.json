@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --mode=development",
+    "serve": "vue-cli-service serve",
     "test": "vue-cli-service build --mode=test",
     "build": "vue-cli-service build --mode=production",
     "lint": "vue-cli-service lint"
@@ -12,7 +12,10 @@
     "@vue/composition-api": "^1.0.0-rc.10",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.0.0",
     "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2"
   },
@@ -23,6 +26,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "mockjs": "^1.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

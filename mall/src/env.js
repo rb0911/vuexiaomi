@@ -2,8 +2,8 @@ let baseUrl;
 
 console.log(process.env);
 switch (process.env.NODE_ENV){
-    case 'dev':
-        baseUrl = 'http://dev-mall-pre.springboot.cn/api';
+    case 'development':
+        baseUrl = '/api';
         break;
     case 'production':
         baseUrl = 'http://dev-mall-pre.springboot.cn/api';
@@ -13,6 +13,8 @@ switch (process.env.NODE_ENV){
         break;
 }
 
+console.log(baseUrl);
+
 export default{
-    baseUrl
+    baseUrl: baseUrl
 }
