@@ -122,6 +122,9 @@ export default {
     logout(){
         console.log('logout');
       },
+    goToCart(){
+      
+    }
 }
 </script>
 
